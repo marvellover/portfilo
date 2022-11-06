@@ -259,7 +259,7 @@ justify-content: center;
 }.footerlogos a{
     padding: 10px ;
 }
-@media (max-width:420px) {
+@media (max-width:470px) {
     .logo{
         width: 100px;
         height: 45px;
