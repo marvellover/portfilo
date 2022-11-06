@@ -53,7 +53,7 @@ export default function Homepage() {
             </div>
                 <h3> I  AM</h3>
                 <h1><b>SANNITH KUMAR</b></h1>
-                <h3>FULL STACK WEBDEVEPLOR AND STUDENT OF MLRITM</h3>
+                <h3>FULL STACK WEB DEVELOPER AND STUDENT OF MLRITM</h3>
                 <div className='icon'>
                     <a href='https://www.instagram.com/sa_nnith_00/'><img className='insta' src={instaicon}></img></a>
                     <a href='https://twitter.com/sannithnalluri'><img className='twiteer' src={twitter}></img></a>
@@ -69,7 +69,7 @@ export default function Homepage() {
         <div  id='About' className='Aboutskills'>
         <div   className='About'>
             <h3>ABOUT ME</h3>
-            <p> My name is SANNITH KUMAR.I am a B.Tech Student in specilaztion in AI & ML  in Marri Laxman reddy institue of techonology and mangement
+            <p> My name is SANNITH KUMAR.I Pursuing  B.Tech Student in specilaztion in AI & ML  in Marri Laxman reddy institue of techonology and mangement
                 Second year  with great interest  web development, software development, Artifical intellgence and machine learning data structures and algorithms....
 
             </p>
