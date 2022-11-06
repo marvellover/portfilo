@@ -1,0 +1,359 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.logo{
+    width: 200px;
+    height: 30px;
+    padding: 20px;
+    padding-left: 40px;
+}
+.img-2{
+    display: none;
+}
+.navbar{
+    display: flex;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+}
+html{
+    scroll-behavior: smooth;
+}
+.menu{
+    display: flex;
+    margin-left: 50%;
+}
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+.menu ul li{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    color: rgb(135, 91, 8);
+    transition: all 1s;
+    transition-property: underline;
+    transition: 1s;
+    text-decoration: underline;
+
+}
+.myimg{
+    width: 400px;
+    height: 500px;
+    margin-left: 80%;
+    margin-top: 50px;
+    transition: all 1.5s;
+}
+.myimg:hover{
+    width: 420px;
+    height: 520px;
+    shape-image-threshold: initial;
+    color: rgba(0, 0, 0, 0.411);
+}
+.infopage{
+    display: flex;
+    background-color: rgb(18, 16, 16);
+    padding: 10px;
+    padding-bottom: 70px;
+}
+.bodysection{
+    background-color: rgb(18, 16, 16);
+}
+.info{
+    color: white;
+    margin-top: 200px;
+    margin-left: 190px;
+}
+.info h1{
+    font-family: 'Raleway', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+padding: 3px;
+font-size: 55px;
+color: #dc9555;
+}
+
+.info h3{
+    font-family:'Times New Roman', Times, serif;
+}
+
+.icon{
+    display: flex;
+    padding-top: 20px;
+    margin-left: 25%;
+    
+}
+
+.insta{
+    height:30px;
+    width: 30px;
+    padding: 20px;
+    transition: all 0.7s;
+    cursor: pointer;
+}
+.insta:hover{
+    height: 35px;
+    width: 35px;
+}
+.twiteer{
+    width: 30px;
+    height: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    transition: all 0.7s;
+    cursor: pointer;
+}
+.twiteer:hover{
+    width: 35px;
+    height: 35px;
+}
+.github{
+    width: 30px;
+    height: 30px;
+    padding: 20px;
+    border-radius: 30px;
+    transition: all 0.7s;
+    cursor: pointer;
+}
+.github:hover{
+    width: 35px;
+    height: 35px;
+}
+
+.Aboutskills{
+    color: white;
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.About{
+    color: aliceblue;
+    margin-top: 10%;
+    width: 600px;
+    height: 400px;
+    margin-left: 200px;
+    padding: 20px;
+    
+}
+.About {
+font-family: sans-serif;
+font-size: 17px;
+line-height: 30px;
+background-color: rgba(33, 32, 32, 0.317);
+transition: all 0.5s;
+}
+.About:hover{
+    font-size: 20px;
+    width: 700px;
+
+}
+.About h3{
+    color: #dc9555;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 23PX;
+}
+.skills{
+    margin-top: 10%;
+    padding: 20px;
+    color: aliceblue;
+    width: 600px;
+    height: 400px;
+    background-color: rgba(40, 31, 31, 0.471);
+    transition: all 0.5s;
+}
+.skills:hover{
+    width: 700px;
+    font-size: 20px;
+}
+.skills h1{
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #dc9555;
+}
+.Projects h1{
+    color: white;
+    margin: 40px;
+    margin-left: 250px;
+}
+.Projects{
+    padding: 40px;
+    color: white;
+}
+.project-1{
+    color: white;
+    width: 600px;
+    height: 550px;
+    padding: 30px;
+    border: 5px white solid;
+}
+.pj1-img{
+    width: 600px;
+    height: 250px;
+}
+.project-col-1{
+    padding-left: 10%;
+    display: flex;
+}
+.project-1 span{
+    width: 500px;
+
+}
+.project-col-2{
+    padding-left: 10%;
+    display: flex;
+    margin-top: 10px;
+}
+.project-2{
+    color: white;
+    width: 600px;
+    height: 550px;
+    padding: 30px;
+    border: 5px white solid;
+    margin: 10px
+}
+.contactpage{
+    background-color: rgba(22, 21, 21, 0.942);
+    color: white;
+    margin-top: 50px
+}
+.contactpage h1{
+    text-align: center;
+    padding: 40px;
+    padding-top: 100px;
+}
+.contactpage h3{
+    margin-left: 5%;
+    padding: 20px;
+
+}
+.Projects h1{
+    color: #dc9555;
+}
+.skills h3{
+    padding: 10px;
+    line-height: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.project-1 p h2{
+    padding: 10px;
+}
+.project-1 span p{
+    padding: 10px;
+    font-size: 17px;
+    line-height: 20px;
+    font-family: sans-serif
+}
+.footerlogos{
+display: flex;
+justify-content: center;
+}.footerlogos a{
+    padding: 10px ;
+}
+@media (max-width:420px) {
+    .logo{
+        width: 100px;
+        height: 45px;
+        padding: 2px;
+        display: none;
+    }
+    .Aboutskills{
+        display: block;
+    }
+    .img-2{
+        display: block;
+        width: 300px;
+        padding-bottom: 20px;
+        margin-left: 5%;
+    }
+    .img-1{
+        display:none;
+    }
+    .menu{
+        margin-left: 10%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .menu ul li{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .myimg{
+        width: 200px;
+        height: 400px;
+        margin-left: 10%;
+        margin-top: 20px;
+    }
+    .infopage{
+        padding: 2px;
+        display: block;
+
+    }
+    .info{
+        margin-top: 100px;
+    margin-left: 10px;
+    }
+    .info h1{
+        font-size: 20px;
+    }
+    .info h3{
+        font-size: smaller;
+    }
+    .icon{
+        margin-left: 25%;
+
+    }
+    .About{
+        width: fit-content;
+        margin-left: 20px;
+        padding: 10px;
+    }
+    .About h3{
+        font-size: small;
+    }
+    .skills{
+        width:fit-content;
+        height: 300px;
+    }
+    .skills:hover{
+        width: fit-content;
+        font-size: medium;
+    }
+    .project-1{
+        margin: 4px;
+        margin-left:0px;
+        width:fit-content;
+        height: fit-content;
+
+    }
+    .Projects{
+        padding: 4px;
+    }
+    .pj1-img{
+         width: 250px;
+            height: 130px;
+
+    }
+    .project-1 span{
+        width: 300px;
+    }
+    .project-2{
+        width: 200px;
+        height: 150px;
+    }
+    .project-col-1{
+        display: block;
+    }
+    .Projects h1{
+        margin-left: 5px;
+    }
+}
